@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   public logoImg = '/../../../../../assets/logosite4.jpg'
+  public title = 'goccia di vino';
+  public subtitle = 'Sabor e qualidade a um clique de você!';
 }

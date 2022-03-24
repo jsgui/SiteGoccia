@@ -1,27 +1,15 @@
 <div class="container header_bg">
   <div class="row align-middle justify-content-center">
     <div class="col-sm-2 ">
-      <a href="#">
-        <img [src]="logoImg" alt="Logo da Empresa">
+      <a class="align-middle"href="#">
+        <img  [src]="logoImg" alt="Logo da Empresa">
       </a>
     </div>
     <div class="col-sm-4">
-      <h1>goccia di vino</h1>
-    <p>Sabor e qualidade a um clique de você!</p>
+      <h1>{{title}}</h1>
+    <p>{{subtitle}}</p>
     </div>
-    <div class="col-sm-6 align-middle">
-      <nav class="navbar navbar-default">
-           
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav justify-content-between">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Empresa</a></li>
-              <li><a href="#">Produtos</a></li>
-              <li><a href="#">Carrinho</a></li>
-              <li><a href="#">Fale Conosco</a></li>
-            </ul>
-        </div>
-      </nav>  
-    </div>
+    <div class="col-sm-6 align-middle g-0">
+      <menu></menu>
 </div>
 </div>

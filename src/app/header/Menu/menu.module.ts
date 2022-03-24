@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { routing } from 'src/app/app.routing';
 
 import { MenuComponent } from './menu.component';
 
@@ -8,7 +9,8 @@ import { MenuComponent } from './menu.component';
     MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing,
   ],
   providers: [],
   bootstrap: [MenuComponent],
