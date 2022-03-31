@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './company.component.html',
   styleUrls: ['./company.component.scss']
 })
-export class CompanyComponent implements OnInit {
+export class CompanyComponent {
 
-  constructor() { }
+  public fluxogram = '/../../../../Diagrama Goccia.jpeg';
 
-  ngOnInit(): void {
-  }
 
+  
 }
